@@ -67,6 +67,9 @@ function App() {
     } else if (type === "operator-equals") {
       setDisplay(eval(previousDisplay.join("")))
       setPreviousDisplay(previousDisplay.concat(value).concat(eval(previousDisplay.join(""))))
+    } else if (key === "-" && previousDisplay === originalPreviousDisplay) {
+      setDisplay([value])
+      setPreviousDisplay([value])
     } else if (key === "-" && previousDisplay[previousDisplay.length - 1] !== "." && typeof previousDisplay[previousDisplay.length - 1] === "string" && typeof previousDisplay[previousDisplay.length - 2] === "number" && previousDisplay[previousDisplay.length - 1] !== "-"){
       setDisplay([value])
       setPreviousDisplay(previousDisplay.concat(value))
