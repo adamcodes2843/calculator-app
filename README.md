@@ -1,9 +1,7 @@
-# FreeCodeCamp Front End Development Libraries Project
+# FreeCodeCamp Front End Development Libraries Calculator Project
 
-## The calculator's styling was inspired by a youtube video, but I used tailwind CSS
+## Project Demo: https://adamcodes2843.github.io/calculator-app/
 
-## I created the calculator's functionality myself with no walkthrough
+The calculator's styling was inspired by a youtube video, but I used tailwind CSS
 
-### Definitely can make the code more presentable and professional in the future
-
-It works pretty well, which is awesome, but in the future I might edit the calculator if/else if functions into a switch/case statement or use a useReducer hook. 
+I created the calculator's functionality myself with no walkthrough. I can definitely make the code more presentable and professional in the future. It works pretty well, which is awesome, but I might edit the calculator if/else if functions into a switch/case statement or use a useReducer hook. 
