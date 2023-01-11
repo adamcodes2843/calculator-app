@@ -92,7 +92,7 @@ function App() {
   }
   console.log(previousDisplay)
   return (
-    <div className="App w-screen h-screen flex justify-center items-center bg-gradient-to-br from-green-400 to-yellow-400 font-sans">
+    <div className="App w-screen h-screen flex justify-center items-center bg-gradient-to-br from-green-400 to-yellow-400 font-sans overflow-hidden">
       <div className="calculator h-96 grid w-80 grid-cols-4 grid-rows-6 gap-0.5 text-3xl bg-white bg-opacity-80">
         <Display previousDisplay={previousDisplay} display={display} />
         <Buttons clickyFunc={clickyFunc} />
